@@ -31,20 +31,31 @@ Yes, the initial cost is still there. However, the next time a user would like t
  What if I could use a loop to skip an order that is already filled. Instead of reverting, let us just skip it. Now since we skipped an order, we could have an extra order to replace the skipped one. That extra order becomes our slippage. This also gives us more flexibility over slippage. Because the price of the trade is based off an order book. The user can (but don't have to) pick which order should be used for slippage. This process would apply the slippage on the amount that was skipped rather than the entire order amount.
 
 
+**Define the rule of the loop**
+
+- The loop external calls should always be made before initiating the loop or at the end of the loop.
+- The loop can't swap an order twice (have the same order id present twice in the loop)
+- The loop must have an exitpoint and revert as early as possible
+
+- *In an effort to keep the loop accessible and economic, all external protocols call should remain optional.*
+
 ## Can but don't have to!
 
-This is where the UI comes in. My vision of displaying the loop to the front end, could look somewhat like Furucombo. Where we build our loop of orders. 
+This is where the UI comes in. My vision of displaying the loop to the front end, could look somewhat like Furucombo. Where we build our loop of orders with optional defi integrations. In a way the UI should remain simple like Uniswap for example, but unfolds into a more advanced order book as well, This is also where it becomes interesting in terms of future functionallity added to the loop. 
 
 - The UI should let the user swap quickly but also extend the order book to mix and match orders and assets to build the loop.
 
-- The UI will let the user chose if he wants the funds transferred to the wallet or remain on DEX. 
+- The UI will let the user chose where he wants the funds transferred to, at the end of the loop, The wallet, On DEX, On another Protocol? 
 
+- The UI should offer a tradebot like feature for automated task. And react to the state of the order book.
 
+- External protocol calls should remain optional in an effort to minimize the cost of the loop.
 
+- *In an effort to keep the loop accessible and economic, all external protocols call should remain optional*
 
 ## Tokenomics 
 
-I am no financial adviser but here are a few ideas.
+I am no financial advisor but here are a few ideas.
 
 - Early bird incentive to encourage early liquidity providers
 - Lock and Load. Hold a balance of the token to earn more or pay less.
@@ -56,4 +67,6 @@ I am no financial adviser but here are a few ideas.
 ## 7 days left to start!
 
 
-Phase one?
+
+
+
