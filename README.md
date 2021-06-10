@@ -49,8 +49,6 @@ This is where the UI comes in. My vision of displaying the loop to the front end
 
 - The UI should offer a tradebot like feature for automated task. And react to the state of the order book.
 
-- External protocol calls should remain optional in an effort to minimize the cost of the loop.
-
 - *In an effort to keep the loop accessible and economic, all external protocols call should remain optional*
 
 ## Tokenomics 
