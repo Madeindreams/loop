@@ -49,8 +49,9 @@ I am no financial adviser but here are a few ideas.
 - Early bird incentive to encourage early liquidity providers
 - Lock and Load. Hold a balance of the token to earn more or pay less.
 - Establish the fees redistribution to community (Reserve/Governance).
-- Farm interest on Sponsored protocols.
-- Uses strategies from Sponsored protocols.
+- Farm interest on Sponsored protocols. (Familiar with Compound, Aave, Uniswap)
+- Uses strategies from Sponsored protocols. (FlashLoans, Arbitrage, ?)
+
 
 ## 7 days left to start!
 
