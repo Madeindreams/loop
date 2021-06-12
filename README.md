@@ -1,8 +1,5 @@
 # LOOP DEFI
 
-Link to the hackathon project
-
-https://showcase.ethglobal.co/hackmoney2021/loop-defi
 
 The project consists in offering a minimalist yet efficient trade/swap mechanism and take an approach that a lot of solidity developers fear, loops.
 
@@ -15,7 +12,7 @@ The project consists in offering a minimalist yet efficient trade/swap mechanism
 
 **Sponsored Integration**
 
--ENS Reverse lookup to have the Dapp UI display the name and avatar on record and maybe something cool with Githubs name on that record for devs.
+- ENS Reverse lookup to have the Dapp UI display the name and avatar on record and maybe something cool with Githubs name on that record for devs.
 
 ## What can we achieve with a loop and DEFI in mind?
 
@@ -68,11 +65,14 @@ I am no financial advisor but here are a few ideas.
 - Uses strategies from Sponsored protocols. (FlashLoans, Arbitrage, ?)
 
 
-## 6 days left to start!
 
 
-## Join our Discord
+
+## Usefull Link
 
 [LOOP DEFI DISCORD](https://discord.gg/cSuDAmNWNX)
 
+[MonyHack2021 Prokect Page](https://showcase.ethglobal.co/hackmoney2021/loop-defi)
 
+
+## 6 days left to start coding!
