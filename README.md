@@ -1,5 +1,8 @@
 # LOOP DEFI
 
+Link to the hackathon project
+
+https://showcase.ethglobal.co/hackmoney2021/loop-defi
 
 The project consists in offering a minimalist yet efficient trade/swap mechanism and take an approach that a lot of solidity developers fear, loops.
 
