@@ -38,7 +38,8 @@ Yes, the initial cost is still there. However, the next time a user would like t
 
 - The loop external calls should always be made before initiating the loop or at the end of the loop.
 - The loop can't swap an order twice (have the same order id present twice in the loop)
-- The loop must have an exitpoint and revert as early as possible
+- The loop must have an exitpoint and revert as early as possible from memory
+- The loop must contain at least one trade from the LOOP LP to be executed
 
 - *In an effort to keep the loop accessible and economic, all external protocols call should remain optional.*
 
