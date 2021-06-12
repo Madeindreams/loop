@@ -62,7 +62,7 @@ I am no financial advisor but here are a few ideas.
 - Uses strategies from Sponsored protocols. (FlashLoans, Arbitrage, ?)
 
 
-## 7 days left to start!
+## 6 days left to start!
 
 
 
